@@ -109,7 +109,7 @@ mailman   unix  -       n       n       -       -       pipe
 
 # mailjail
 mailjail  unix  -       n       n       -       -       pipe
-  flags=FDRq user=ssk argv=/home/ssk/bin/mailjail.py $sender $recipient
+  flags=FDRq user=noten argv=/home/noten/bin/mailjail.py $sender $recipient
 mailjail2 unix  -       n       n       -       -       pipe
-  flags=FDRq user=ssk argv=/home/ssk/bin/mailjail2.py $sender $recipient
+  flags=FDRq user=noten argv=/home/noten/bin/mailjail2.py $sender $recipient
 
